@@ -26,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- =======================================================
   * Template Name: Groovin - v2.2.1
@@ -42,15 +44,19 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo mr-auto"><a href="index.html"><img src="./assets/img/sanchez/zhitnja-sloza.png"/> </a></h1>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100065527733912" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com/zhitnya_sloza_vodka?igshid=1dnp92ft8krsf" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">О нас</a></li>
-          <li><a href="#services">Продукт</a></li>
-          <li><a href="#portfolio">Галлерея</a></li>
+          <li><a href="#about">Продукт</a></li>
+          <!-- <li><a href="#services">Продукт</a></li>
+          <li><a href="#portfolio">Галлерея</a></li> -->
           <li><a href="#contact">Контакты</a></li>
 
         </ul>
@@ -71,7 +77,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url(assets/img/sanchez/atsApp_Image_2021-04-07_at_22.07.17.jpg)  0 0/100% 100% no-repeat;">
+          <div class="carousel-item active" style="background: url(assets/img/sanchez/atsApp_Image_2021-04-07_at_22.07.17.jpg)  center no-repeat;">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
@@ -84,7 +90,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url(assets/img/sanchez/atsApp_Image_2021-04-07_at_22.07.49.jpg) 0 0/100% 100% no-repeat;">
+          <div class="carousel-item" style="background: url(assets/img/sanchez/atsApp_Image_2021-04-07_at_22.07.49.jpg) center no-repeat;">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -97,7 +103,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-item" style="background: url(assets/img/sanchez/8c96cec6-6b66-4452-bea1-9dbacf1c3407.jpg) center no-repeat;">
             <div class="carousel-background"><img src="assets/img/slide/slide-3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -129,12 +135,12 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" >
       <div class="container">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+        <div class="row no-gutters" >
+          <div class="image col-xl-3 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch" data-aos="fade-left">
             <div class="content d-flex flex-column justify-content-center">
               <h3>Voluptatem dignissimos provident quasi</h3>
               <p>
@@ -167,7 +173,129 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+     
+          <div class="col-xl-9 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Voluptatem dignissimos provident quasi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <div class="row">
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Corporis voluptates sit</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Ullamco laboris nisi</h4>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-images"></i>
+                  <h4>Labore consequatur</h4>
+                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-shield"></i>
+                  <h4>Beatae veritatis</h4>
+                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+          <div class="image col-xl-3 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-left"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="about" class="about" >
+      <div class="container">
+
+        <div class="row no-gutters" >
+          <div class="image col-xl-3 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch" data-aos="fade-left">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Voluptatem dignissimos provident quasi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <div class="row">
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Corporis voluptates sit</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Ullamco laboris nisi</h4>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-images"></i>
+                  <h4>Labore consequatur</h4>
+                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-shield"></i>
+                  <h4>Beatae veritatis</h4>
+                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+     
+          <div class="col-xl-9 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Voluptatem dignissimos provident quasi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <div class="row">
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Corporis voluptates sit</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Ullamco laboris nisi</h4>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-images"></i>
+                  <h4>Labore consequatur</h4>
+                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+                <div class="col-md-6 icon-box">
+                  <i class="bx bx-shield"></i>
+                  <h4>Beatae veritatis</h4>
+                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+          <div class="image col-xl-3 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-left"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
     <!-- <section id="counts" class="counts">
@@ -858,6 +986,7 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -870,7 +999,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

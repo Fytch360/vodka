@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: radial-gradient(ellipse at center, rgb(0, 0, 0) 0%,rgb(179, 179, 179) 50%,rgb(0, 0, 0) 100%);
+  background: radial-gradient(ellipse at center, rgb(0, 0, 0) 0%,rgb(83, 83, 83) 50%,rgb(0, 0, 0) 100%);
 }
 
 a {
@@ -588,9 +588,9 @@ section {
 }
 
 .about .image {
-  background: url("https://i.pinimg.com/564x/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 400px;
+  background: url("../img/sanchez/ZSbriliant05.png") 0 0/contain no-repeat;
+  /* background-size: cover; */
+  /* min-height: 400px; */
 }
 
 @media (max-width: 991px) {
@@ -1487,7 +1487,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 36px !important;
   display: inline-block;
   background: #2a2a2a;
   color: #fff;
@@ -1499,6 +1499,9 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+.social-links{
+  font-size: 36px !important;
 }
 
 #footer .footer-top .social-links a:hover {
