@@ -10,8 +10,10 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background: radial-gradient(ellipse at center, rgb(0, 0, 0) 0%,rgb(83, 83, 83) 50%,rgb(0, 0, 0) 100%);
+  color: #fff;
+  background: url("../img/sanchez/bg.jpg") 0 0/cover no-repeat;
+  background-attachment: fixed;
+  /* background: radial-gradient(ellipse at center, rgb(0, 0, 0) 0%,rgb(83, 83, 83) 50%,rgb(0, 0, 0) 100%); */
 }
 
 a {
@@ -583,12 +585,11 @@ section {
 
 .about .content .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #fff;
   margin-left: 60px;
 }
 
 .about .image {
-  background: url("../img/sanchez/ZSbriliant05.png") 0 0/contain no-repeat;
   /* background-size: cover; */
   /* min-height: 400px; */
 }
@@ -1006,7 +1007,7 @@ section {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 .pricing .box h4 {
@@ -1201,7 +1202,7 @@ section {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #fff;
 }
 
 .contact .contact-info a {
