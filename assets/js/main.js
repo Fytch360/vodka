@@ -8,7 +8,7 @@
   "use strict";
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  confirm('Вам исполнилось 18 лет?')
+  confirm('Ваш вік досяг 18 років?')
   var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
