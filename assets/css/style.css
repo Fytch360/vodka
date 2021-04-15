@@ -1503,6 +1503,7 @@ section {
 }
 .social-links{
   font-size: 36px !important;
+  margin-right: 25px;
 }
 
 #footer .footer-top .social-links a:hover {
